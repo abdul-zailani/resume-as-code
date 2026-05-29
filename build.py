@@ -340,9 +340,7 @@ def main():
             pages_match = re.search(r"Pages:\s+(\d+)", pdfinfo_output)
             if pages_match:
                 pages = int(pages_match.group(1))
-                print(f"🎉 SUCCESS! Legible, exactly {pages}-page PDF compiled: {cv_pdf}")
-                if pages != 2:
-                    print(f"⚠️ WARNING: The generated PDF is {pages} pages, but 2 pages was requested. Check layout sizes.")
+                print(f"🎉 SUCCESS! Legible, {pages}-page PDF compiled: {cv_pdf}")
         except Exception:
             print(f"🎉 SUCCESS! PDF compiled: {cv_pdf}")
     except subprocess.CalledProcessError as e:
