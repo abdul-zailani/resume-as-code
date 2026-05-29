@@ -1,0 +1,71 @@
+Abdul Aziz Zailani
+Email: aazizzailani@gmail.com
+Tel: 0857-1616-9351
+
+================================================================================
+
+
+Senior SRE & DevOps Engineer with 6+ years of expertise in multi-cloud infrastructure, high-availability container orchestration (EKS/GKE), and advanced platform observability. Proven track record in designing auto-scaling runner fleets, enterprise CI/CD pipeline engines, and custom quality gate integrations. Focused on system reliability, distributed tracing, and developer velocity.
+
+
+SKILLS -------------------------------------------------------------------------
+
+- CI/CD: Jenkins JCasC ArgoCD Fastlane GitLab GitHub Actions (ARC) 
+- Cloud: AWS Alibaba Cloud Digital Ocean GCP 
+- Containerization: Docker Kubernetes Docker Swarm Helm 
+- Monitoring: Prometheus Grafana New Relic ELK Stack Loki Tempo 
+- IaC & Automation: Terraform Ansible Packer Rundeck 
+- Databases: PostgreSQL MongoDB Redis Elasticsearch Kafka MySQL ClickHouse 
+- API Management: Kong API Gateway 
+
+
+EMPLOYMENT ---------------------------------------------------------------------
+
+Site Reliability Engineer, PT. Lion Parcel (2025-02 — Present)
+Managed the reliability, high availability, and cost efficiency of multi-cloud infrastructure (AWS & GCP) hosting core logistics microservices. Led large-scale cloud migrations, architected automated runner fleets, and standardized continuous delivery platforms to guarantee platform uptime and optimize developer productivity.
+- Zero-Downtime Cloud Migration: Led and successfully executed the end-to-end migration of 100% of core production microservices and databases from GCP to AWS with 0% downtime (zero service interruption).
+- GitHub Actions Scale Sets (ARC): Architected and deployed GitHub Actions Runner Controller (ARC) on AWS EKS to manage auto-scaling self-hosted runner fleets, reducing pipeline build wait times by 40% and optimizing runner cost efficiency by 30%.
+- Jenkins-as-Code (JCasC): Standardized CI/CD pipelines utilizing JCasC configurations, improving pipeline deployment speed by 25% and integrating automated Lighthouse performance quality gates directly into the runner runtime.
+- Distributed Observability: Deployed Grafana Tempo distributed tracing stack with AWS S3 storage backend across all environments, reducing Mean Time to Resolution (MTTR) by 50% for production incidents.
+
+Lead SRE/DevOps Engineer, PT. Komunitas Anak Bangsa (2022-11 — 2025-02)
+Directed GitOps adoption, mobile application deployment workflows, and secure multi-cloud architectures. Managed relational/NoSQL databases and messaging brokers while driving platform observability and technical strategy across the SRE team.
+- ArgoCD GitOps Adoption: Led the adoption of GitOps practices using ArgoCD, improving configuration synchronization speed by 35% and eliminating deployment drift across dev, staging, and production environments.
+- Mobile CI/CD with Fastlane: Built automated CI/CD pipelines for Android/iOS apps utilizing Fastlane, cutting mobile release cycle times by 50% and integrating automated QA testing.
+- Secure Alibaba Cloud VPC: Designed a secure VPC and corporate network architecture on Alibaba Cloud with Pritunl VPN integrations, securing internal platform communication for 50+ active engineers.
+- Platform Observability Stack: Revamped cluster-wide monitoring using Prometheus, Grafana, and New Relic, increasing proactive incident detection rates by 40%.
+
+DevOps Engineer, PT. Harmonix Teknologi Peentar (2019-10 — 2022-11)
+Orchestrated container workloads, continuous integration engines, and centralized logging stacks. Spearheaded cloud migrations and infrastructure performance tuning to optimize costs and availability.
+- AWS Cloud Migration: Led the successful migration of legacy on-premise infrastructure to AWS, improving application response times by 30% while maintaining 99.9% system availability during the transition.
+- Container Orchestration: Containerized and orchestrated 30+ core microservices using Docker Swarm and Kubernetes, improving overall cluster resource utilization by 25%.
+- CI/CD Optimization: Revamped Jenkins and GitLab CI pipelines, reducing software release deployment cycles by 70% (accelerating releases from weekly to daily deployments).
+- Observability Setup: Deployed centralized logging and APM monitoring via ELK Stack and New Relic, improving system diagnostics speed by 45%.
+
+System Administrator, PT. Harmonix Teknologi Peentar (2018-10 — 2019-10)
+Administered corporate networks, Linux/Windows servers, user credentials, and security policies. Established initial systems monitoring and detailed technical documentation.
+- Infrastructure Availability: Maintained 99.95% service uptime across Linux and Windows Server environments, managing firewalls, backups, and user access.
+- Proactive System Monitoring: Built and configured early-stage server monitoring utilizing Grafana and ELK Stack, reducing hardware incident resolution times by 30%.
+- Technical Documentation: Authored and updated 50+ technical SOPs and infrastructure topologies, reducing new SRE/IT member onboarding times by 40%.
+
+Freelance DevOps Engineer, buyback.ai (2021-08 — 2022-08)
+Designed, migrated, and deployed scalable database nodes and high-availability application environments on modern cloud infrastructures.
+- Cloud to Cloud Migration: Spearheaded the seamless migration of application nodes and MySQL databases from DigitalOcean to AWS, boosting overall database query speeds by 35%.
+- Kubernetes Integration: Deployed high-availability application workloads on Kubernetes clusters, improving overall service availability by 20% under peak user traffic.
+
+
+
+
+EDUCATION ----------------------------------------------------------------------
+
+Indraprasta PGRI University (2010-01 — 2015-01)
+
+
+
+
+
+
+
+
+
+

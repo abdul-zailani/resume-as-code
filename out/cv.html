@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta name="description" content="Senior SRE & DevOps Engineer Resume - Abdul Aziz Zailani. Expert in cloud migration, Kubernetes orchestration (EKS/GKE), Jenkins-as-Code (JCasC), and high-availability container platforms.">
+        <meta name="keywords" content="Site Reliability Engineer, SRE, DevOps, Cloud Migration, Kubernetes, EKS, Terraform, Ansible, Jenkins, JCasC, Grafana, Resume-as-Code">
+        <meta name="author" content="Abdul Aziz Zailani">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <meta charset="utf-8">
+        <title>Abdul Aziz Zailani</title>
+        
+        
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            main {
+              display: block;
+            }
+            
+            body {
+              font-size: 12.5px;
+              color: #333;
+              line-height: 1.35;
+              background-color: #F0F0F0;
+              margin: 0;
+              padding: 0;
+              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            }
+            
+            body.pdf {
+              background-color: #FFFFFF;
+            }
+            
+            #main {
+              background-color: #FFF;
+              margin: 0;
+              padding: 15px;
+              border: none;
+            }
+            
+            body.pdf > #main {
+              border: none;
+            }
+            
+            #container > header {
+              padding-top: 10px;
+              padding-bottom: 5px;
+            }
+            
+            body.pdf #container > header {
+              padding: 0;
+            }
+            
+            #main > #container > section {
+              margin-left: 0;
+              position: relative;
+              display: block;
+            }
+            
+            section > div {
+              margin-bottom: 8px;
+              page-break-inside: avoid;
+            }
+            
+            span.fa
+            {
+              display: none;
+            }
+            
+            hr {
+              margin-top: 6px;
+              margin-bottom: 6px;
+              border: 0;
+              border-top: 1px solid #EEE;
+            }
+            
+            .tenure, .keywords {
+              font-size: 85%;
+            }
+            
+            h1 {
+              margin: 0;
+              font-size: 26px;
+              color: #1a4367;
+              display: inline-block;
+            }
+            
+            h2 {
+              font-size: 14px;
+              color: #4376a2;
+              text-transform: uppercase;
+              font-weight: bold;
+              padding-top: 3px;
+              margin-top: 2px;
+              margin-bottom: 6px;
+              border-bottom: 2px solid #4376a2;
+              padding-bottom: 2px;
+            }
+            
+            h3 {
+              margin-bottom: 1px;
+              font-size: 13px;
+              font-weight: bold;
+            }
+            
+            a, a:visited {
+              color: #428BCA;
+              text-decoration: none;
+              font-weight: bold;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            .defunct {
+              color: #989898;
+              font-weight: bold;
+            }
+            
+            #summary {
+              font-size: 100%;
+              margin-left: 0;
+              padding: 2px 0;
+            }
+            
+            #summary > p > strong {
+              font-size: 1.1em;
+            }
+            
+            #contact {
+              float: right;
+              text-align: right;
+            }
+            
+            #summary > header > .fa-info {
+              display: none;
+            }
+            
+            #summary h2 {
+              display: block;
+            }
+            
+            .label-keyword {
+              display: inline-block;
+              background-color: #e8f4ff !important;
+              color: #1a4367 !important;
+              font-size: 0.85em;
+              padding: 2px 6px;
+              border: 1px solid #bce0fd;
+              border-radius: 4px;
+              margin-top: 2px;
+              margin-right: 2px;
+              font-weight: 600;
+              text-align: center;
+              -webkit-print-color-adjust: exact !important;
+              print-color-adjust: exact !important;
+            }
+            
+            .label-keyword span, .label-keyword span.kw {
+              color: #1a4367 !important;
+              font-weight: 600 !important;
+              -webkit-print-color-adjust: exact !important;
+              print-color-adjust: exact !important;
+            }
+            
+            .notes {
+              font-size: 9px;
+              display: block;
+              font-weight: normal;
+              text-transform: uppercase;
+            }
+            
+            .card-skills {
+                position: relative;
+            }
+            .card-nested {
+                min-height: 0;
+                margin-bottom: 4px;
+                border-width: 0;
+            }
+            .card {
+                background: #FFF;
+                border-radius: 0;
+                padding: 0;
+                border: none;
+            }
+            
+            .skill-level {
+              display: none;
+            }
+            
+            .skill-info {
+              margin-left: 0;
+            }
+            @media (max-width: 480px) {
+              .skill-info {
+                margin-left: 0;
+              }
+            }
+            .skill-info > strong {
+              font-weight: 700;
+              font-size: 13px;
+              color: #1a4367;
+              line-height: 18px;
+            }
+            
+            .list-unstyled {
+              padding-left: 0;
+              list-style: none;
+            }
+            
+            .space-top {
+                margin-top: 1px;
+            }
+            
+            #container {
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            
+            .res-label {
+              font-style: italic;
+            }
+            
+            @media print {
+              html, body, main {
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                background-color: #FFFFFF;
+              }
+              @page {
+                size: A4;
+                margin: 0.5cm 0.7cm;
+              }
+              section {
+                page-break-inside: auto !important;
+              }
+              .card-nested, section > div {
+                page-break-inside: avoid !important;
+              }
+              li {
+                margin-bottom: 1px;
+              }
+            }
+</style>
+    </head>
+    
+    <body>
+        <main id="main">
+            <div id="container">
+                <header>
+                     <h1>Abdul Aziz Zailani</h1>
+                    <div id="contact">
+                        <div class="email"><a href="mailto:aazizzailani@gmail.com">aazizzailani@gmail.com</a>
+                        </div>
+                        <div class="phone">0857-1616-9351</div>
+                    </div>
+                </header>
+                <hr>
+                <section id="summary">
+                    <header> <span class="fa fa-lg fa-info"></span> 
+                         <h2>info</h2>
+
+                    </header>Senior SRE &amp; DevOps Engineer with 6+ years of expertise in multi-cloud
+                    infrastructure, high-availability container orchestration (EKS/GKE), and
+                    advanced platform observability. Proven track record in designing auto-scaling
+                    runner fleets, enterprise CI/CD pipeline engines, and custom quality gate
+                    integrations. Focused on system reliability, distributed tracing, and developer
+                    velocity.</section>
+                <hr>
+                <section id="skills">
+                    <header>
+                         <h2>Skills</h2>
+                    </header> <span class="fa fa-lg fa-code"></span>
+                    <ul class="list-unstyled">
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>CI/CD</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">Jenkins</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">JCasC</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">ArgoCD</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Fastlane</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">GitLab</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">GitHub Actions (ARC)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>Cloud</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">AWS</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Alibaba Cloud</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Digital Ocean</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">GCP</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>Containerization</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">Docker</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Kubernetes</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Docker Swarm</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Helm</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>Monitoring</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">Prometheus</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Grafana</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">New Relic</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">ELK Stack</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Loki</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Tempo</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>IaC &amp; Automation</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">Terraform</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Ansible</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Packer</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Rundeck</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>Databases</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">PostgreSQL</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">MongoDB</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Redis</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Elasticsearch</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">Kafka</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">MySQL</span>
+                                    </div>
+                                    <div class="label label-keyword"> <span class="kw">ClickHouse</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="" data-placement="left">
+                                <div class="skill-progress "></div>
+                            </div>
+                            <div class="skill-info"> <strong>API Management</strong>
+                                <div class="space-top labels">
+                                    <div class="label label-keyword"> <span class="kw">Kong API Gateway</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <hr>
+                <section id="employment">
+                    <header> <span class="fa fa-lg fa-building"></span> 
+                         <h2>employment</h2>
+
+                    </header>
+                    <div>
+                         <h3><em>Site Reliability Engineer</em>,
+
+    PT. Lion Parcel
+
+    </h3>
+ <span class="tenure">2025-02 — Present</span>
+                        <p>
+                            <p>Managed the reliability, high availability, and cost efficiency of multi-cloud
+                                infrastructure (AWS &amp; GCP) hosting core logistics microservices. Led
+                                large-scale cloud migrations, architected automated runner fleets, and
+                                standardized continuous delivery platforms to guarantee platform uptime
+                                and optimize developer productivity.</p>
+                        </p>
+                        <ul>
+                            <li>Zero-Downtime Cloud Migration: Led and successfully executed the end-to-end
+                                migration of 100% of core production microservices and databases from GCP
+                                to AWS with 0% downtime (zero service interruption).</li>
+                            <li>GitHub Actions Scale Sets (ARC): Architected and deployed GitHub Actions
+                                Runner Controller (ARC) on AWS EKS to manage auto-scaling self-hosted runner
+                                fleets, reducing pipeline build wait times by 40% and optimizing runner
+                                cost efficiency by 30%.</li>
+                            <li>Jenkins-as-Code (JCasC): Standardized CI/CD pipelines utilizing JCasC
+                                configurations, improving pipeline deployment speed by 25% and integrating
+                                automated Lighthouse performance quality gates directly into the runner
+                                runtime.</li>
+                            <li>Distributed Observability: Deployed Grafana Tempo distributed tracing
+                                stack with AWS S3 storage backend across all environments, reducing Mean
+                                Time to Resolution (MTTR) by 50% for production incidents.</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Lead SRE/DevOps Engineer</em>,
+
+    PT. Komunitas Anak Bangsa
+
+    </h3>
+ <span class="tenure">2022-11 — 2025-02</span>
+                        <p>
+                            <p>Directed GitOps adoption, mobile application deployment workflows, and
+                                secure multi-cloud architectures. Managed relational/NoSQL databases and
+                                messaging brokers while driving platform observability and technical strategy
+                                across the SRE team.</p>
+                        </p>
+                        <ul>
+                            <li>ArgoCD GitOps Adoption: Led the adoption of GitOps practices using ArgoCD,
+                                improving configuration synchronization speed by 35% and eliminating deployment
+                                drift across dev, staging, and production environments.</li>
+                            <li>Mobile CI/CD with Fastlane: Built automated CI/CD pipelines for Android/iOS
+                                apps utilizing Fastlane, cutting mobile release cycle times by 50% and
+                                integrating automated QA testing.</li>
+                            <li>Secure Alibaba Cloud VPC: Designed a secure VPC and corporate network
+                                architecture on Alibaba Cloud with Pritunl VPN integrations, securing internal
+                                platform communication for 50+ active engineers.</li>
+                            <li>Platform Observability Stack: Revamped cluster-wide monitoring using Prometheus,
+                                Grafana, and New Relic, increasing proactive incident detection rates by
+                                40%.</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>DevOps Engineer</em>,
+
+    PT. Harmonix Teknologi Peentar
+
+    </h3>
+ <span class="tenure">2019-10 — 2022-11</span>
+                        <p>
+                            <p>Orchestrated container workloads, continuous integration engines, and
+                                centralized logging stacks. Spearheaded cloud migrations and infrastructure
+                                performance tuning to optimize costs and availability.</p>
+                        </p>
+                        <ul>
+                            <li>AWS Cloud Migration: Led the successful migration of legacy on-premise
+                                infrastructure to AWS, improving application response times by 30% while
+                                maintaining 99.9% system availability during the transition.</li>
+                            <li>Container Orchestration: Containerized and orchestrated 30+ core microservices
+                                using Docker Swarm and Kubernetes, improving overall cluster resource utilization
+                                by 25%.</li>
+                            <li>CI/CD Optimization: Revamped Jenkins and GitLab CI pipelines, reducing
+                                software release deployment cycles by 70% (accelerating releases from weekly
+                                to daily deployments).</li>
+                            <li>Observability Setup: Deployed centralized logging and APM monitoring via
+                                ELK Stack and New Relic, improving system diagnostics speed by 45%.</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>System Administrator</em>,
+
+    PT. Harmonix Teknologi Peentar
+
+    </h3>
+ <span class="tenure">2018-10 — 2019-10</span>
+                        <p>
+                            <p>Administered corporate networks, Linux/Windows servers, user credentials,
+                                and security policies. Established initial systems monitoring and detailed
+                                technical documentation.</p>
+                        </p>
+                        <ul>
+                            <li>Infrastructure Availability: Maintained 99.95% service uptime across Linux
+                                and Windows Server environments, managing firewalls, backups, and user
+                                access.</li>
+                            <li>Proactive System Monitoring: Built and configured early-stage server monitoring
+                                utilizing Grafana and ELK Stack, reducing hardware incident resolution
+                                times by 30%.</li>
+                            <li>Technical Documentation: Authored and updated 50+ technical SOPs and infrastructure
+                                topologies, reducing new SRE/IT member onboarding times by 40%.</li>
+                        </ul>
+                    </div>
+                    <div>
+                         <h3><em>Freelance DevOps Engineer</em>,
+
+    buyback.ai
+
+    </h3>
+ <span class="tenure">2021-08 — 2022-08</span>
+                        <p>
+                            <p>Designed, migrated, and deployed scalable database nodes and high-availability
+                                application environments on modern cloud infrastructures.</p>
+                        </p>
+                        <ul>
+                            <li>Cloud to Cloud Migration: Spearheaded the seamless migration of application
+                                nodes and MySQL databases from DigitalOcean to AWS, boosting overall database
+                                query speeds by 35%.</li>
+                            <li>Kubernetes Integration: Deployed high-availability application workloads
+                                on Kubernetes clusters, improving overall service availability by 20% under
+                                peak user traffic.</li>
+                        </ul>
+                    </div>
+                </section>
+                <hr>
+                <section id="education">
+                    <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                         <h2>education</h2>
+
+                    </header>
+                    <div>
+                        
+<h3>
+
+Indraprasta PGRI University
+
+</h3>
+<span class="tenure">2010-01 — 2015-01</span>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+
+</html>
