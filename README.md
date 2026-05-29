@@ -10,7 +10,7 @@ Equipped with [AGENT.md](./AGENT.md) guidelines for AI coding assistants.
 
 *   🗂️ **Single Source of Truth**: All CV content is managed in a single, clean `resume.json` file.
 *   🎛️ **Multi-Format Export**: Generates **5 production formats** in a single run:
-    *   **PDF**: Legible, print-ready, and **exactly 2 pages** (optimized for mobile/screen viewing).
+    *   **PDF**: Legible, print-ready, and highly optimized for mobile/screen viewing.
     *   **HTML**: Modern, clean web layout.
     *   **Word DOC**: Fully editable Microsoft Word document.
     *   **Plain Text (TXT)**: ATS-friendly plain text for copy-pasting.

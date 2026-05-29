@@ -32,13 +32,13 @@ You **MUST** respect the following rules during compilation:
 *   **Constraint**: Do NOT load remote Google Fonts or FontAwesome CDN links in the HTML styles. Always fall back to local premium system font stacks:
     `font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;`
 
-### 2. 📄 Strict 2-Page Fit
-*   **The Bug**: Setting `section { page-break-inside: avoid; }` in print CSS forces the entire 5-job Employment section onto Page 2, creating massive gaps and overflowing the CV to Page 3.
+### 2. 📄 Optimal Page Breaks & Fitting
+*   **The Bug**: Setting `section { page-break-inside: avoid; }` in print CSS forces the entire 5-job Employment section onto the next page, creating massive blank gaps and page overflows.
 *   **Constraint**:
-    *   Set `section { page-break-inside: auto !important; }` in print CSS.
-    *   Set `page-break-inside: avoid !important;` strictly for individual job cards (`.card-nested` and `section > div`) to prevent awkward splits.
-    *   Keep page margin set to `@page { size: A4; margin: 0.5cm 0.7cm; }`.
-    *   The generated PDF must fit **exactly 2 pages** with a body font size of `12px` to `12.5px`.
+    *   Set `section { page-break-inside: auto !important; }` in print CSS to allow smooth multi-page flow.
+    *   Set `page-break-inside: avoid !important;` strictly for individual job cards (`.card-nested` and `section > div`) to prevent awkward card splits.
+    *   Keep default page margin set to `@page { size: A4; margin: 0.6cm 0.8cm; }`.
+    *   Ensure the generated PDF flows beautifully across pages (the default SRE example is optimized to fit **exactly 2 pages** with a body font size of `12px` to `12.5px`).
 
 ---
 
