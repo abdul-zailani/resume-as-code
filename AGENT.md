@@ -7,6 +7,7 @@ Welcome, Agent! Use these concise guidelines to maintain and compile this worksp
 ## 📂 Core Architecture
 
 *   `resume.json` — Raw source of truth (JSON Resume specification).
+*   `index.html` — The interactive Live JSON Playground web application.
 *   `build.py` — Automated post-processing and PDF compilation pipeline.
 *   `out/` — Output folder containing generated formats (HTML, PDF, DOC, TXT).
 
