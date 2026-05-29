@@ -1,0 +1,39 @@
+# Historical specifications
+docs/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build and output ignores (optional, keep if you want to track your cv in git, but ignore temporary logs/caches)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# Temporary rendering outputs / test caches
+scratch/
+tmp/
+temp/
+*.log
