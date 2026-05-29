@@ -1059,7 +1059,7 @@
       </w:r>
       
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:t>PT. Lion Parcel</w:t>
+          <w:t>PT. Lion Express</w:t>
         </w:r>
       
       <w:r wsp:rsidR="00EA0B64">
@@ -1490,7 +1490,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Kubernetes Integration: Deployed high-availability application workloads on Kubernetes clusters, improving overall service availability by 20% under peak user traffic.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>AWS Elastic Beanstalk: Deployed and scaled high-availability application workloads on AWS Elastic Beanstalk, improving overall service availability by 20% under peak user traffic.</w:t></w:r>
     </w:p>
 
   </wx:sub-section>

@@ -200,7 +200,7 @@
             min-height: 297mm;
             background-color: white;
             box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-            padding: 0.6cm 0.8cm;
+            padding: 0.8cm 0.8cm;
             color: #333;
             line-height: 1.35;
             font-size: 12.5px;
@@ -213,8 +213,8 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            padding-top: 5px;
-            padding-bottom: 5px;
+            padding-top: 25px;
+            padding-bottom: 12px;
         }
 
         .resume-header h1 {
@@ -365,7 +365,7 @@
 
             @page {
                 size: A4;
-                margin: 0.6cm 0.8cm;
+                margin: 0.8cm 0.8cm;
             }
 
             .resume-job {
@@ -396,7 +396,15 @@
 
     <!-- TOOLBAR HEADER -->
     <header class="app-header">
-        <h1>Resume-as-Code<span>Live Playground</span></h1>
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <h1 style="display: flex; align-items: center; gap: 8px; font-size: 1.25rem; font-weight: 700; margin: 0; color: white;">
+                🚀 Resume-as-Code
+                <span style="font-weight: 300; opacity: 0.8; font-size: 0.9rem; border-left: 1px solid rgba(255,255,255,0.3); padding-left: 8px; margin-left: 8px;">Interactive Playground</span>
+            </h1>
+            <a href="https://github.com/abdul-zailani/resume-as-code" target="_blank" style="background: rgba(255,255,255,0.15); color: white; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; display: inline-flex; align-items: center; gap: 5px; text-decoration: none; border: 1px solid rgba(255,255,255,0.2); transition: var(--transition);" onmouseover="this.style.background='rgba(255,255,255,0.25)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'">
+                ⭐ Star on GitHub
+            </a>
+        </div>
         <div class="header-actions">
             <button class="btn" onclick="triggerLoadJSON()" title="Upload an existing resume.json file">📂 Load JSON</button>
             <button class="btn" onclick="saveJSON()" title="Download current resume.json file">💾 Save JSON Code</button>
@@ -470,6 +478,7 @@
                             <h3 id="preview-education-inst">University Placeholder</h3>
                             <span class="resume-tenure" id="preview-education-date">2010-01 — 2015-01</span>
                         </div>
+                        <div id="preview-education-area" style="font-style: italic; color: #555; margin-top: 2px; font-size: 0.95em;">Bachelor of Informatics, FMIPA</div>
                     </div>
                 </div>
 
@@ -486,8 +495,75 @@
     "label": "Senior SRE & DevOps Engineer",
     "email": "aazizzailani@gmail.com",
     "phone": "0857-1616-9351",
-    "summary": "Senior SRE & DevOps Engineer with 6+ years of expertise in multi-cloud infrastructure, high-availability container orchestration (EKS/GKE), and advanced platform observability. Proven track record in designing auto-scaling runner fleets, enterprise CI/CD pipeline engines, and custom quality gate integrations. Focused on system reliability, distributed tracing, and developer velocity."
+    "summary": "Senior SRE & DevOps Engineer with 6+ years of expertise in multi-cloud infrastructure, high-availability container orchestration (EKS/GKE), and advanced platform observability. Proven track record in designing auto-scaling runner fleets, enterprise CI/CD pipeline engines, and custom quality gate integrations. Focused on system reliability, distributed tracing, and developer velocity.",
+    "location": {
+      "countryCode": "ID"
+    }
   },
+  "work": [
+    {
+      "company": "PT. Lion Express",
+      "position": "Site Reliability Engineer",
+      "startDate": "2025-02-01",
+      "endDate": "Present",
+      "summary": "Managed the reliability, high availability, and cost efficiency of multi-cloud infrastructure (AWS & GCP) hosting core logistics microservices. Led large-scale cloud migrations, architected automated runner fleets, and standardized continuous delivery platforms to guarantee platform uptime and optimize developer productivity.",
+      "highlights": [
+        "Zero-Downtime Cloud Migration: Led and successfully executed the end-to-end migration of 100% of core production microservices and databases from GCP to AWS with 0% downtime (zero service interruption).",
+        "GitHub Actions Scale Sets (ARC): Architected and deployed GitHub Actions Runner Controller (ARC) on AWS EKS to manage auto-scaling self-hosted runner fleets, reducing pipeline build wait times by 40% and optimizing runner cost efficiency by 30%.",
+        "Jenkins-as-Code (JCasC): Standardized CI/CD pipelines utilizing JCasC configurations, improving pipeline deployment speed by 25% and integrating automated Lighthouse performance quality gates directly into the runner runtime.",
+        "Distributed Observability: Deployed Grafana Tempo distributed tracing stack with AWS S3 storage backend across all environments, reducing Mean Time to Resolution (MTTR) by 50% for production incidents."
+      ]
+    },
+    {
+      "company": "PT. Komunitas Anak Bangsa",
+      "position": "Lead SRE/DevOps Engineer",
+      "startDate": "2022-11-01",
+      "endDate": "2025-02-28",
+      "summary": "Directed GitOps adoption, mobile application deployment workflows, and secure multi-cloud architectures. Managed relational/NoSQL databases and messaging brokers while driving platform observability and technical strategy across the SRE team.",
+      "highlights": [
+        "ArgoCD GitOps Adoption: Led the adoption of GitOps practices using ArgoCD, improving configuration synchronization speed by 35% and eliminating deployment drift across dev, staging, and production environments.",
+        "Mobile CI/CD with Fastlane: Built automated CI/CD pipelines for Android/iOS apps utilizing Fastlane, cutting mobile release cycle times by 50% and integrating automated QA testing.",
+        "Secure Alibaba Cloud VPC: Designed a secure VPC and corporate network architecture on Alibaba Cloud with Pritunl VPN integrations, securing internal platform communication for 50+ active engineers.",
+        "Platform Observability Stack: Revamped cluster-wide monitoring using Prometheus, Grafana, and New Relic, increasing proactive incident detection rates by 40%"
+      ]
+    },
+    {
+      "company": "PT. Harmonix Teknologi Peentar",
+      "position": "DevOps Engineer",
+      "startDate": "2019-10-01",
+      "endDate": "2022-11-01",
+      "summary": "Orchestrated container workloads, continuous integration engines, and centralized logging stacks. Spearheaded cloud migrations and infrastructure performance tuning to optimize costs and availability.",
+      "highlights": [
+        "AWS Cloud Migration: Led the successful migration of legacy on-premise infrastructure to AWS, improving application response times by 30% while maintaining 99.9% system availability during the transition.",
+        "Container Orchestration: Containerized and orchestrated 30+ core microservices using Docker Swarm and Kubernetes, improving overall cluster resource utilization by 25%.",
+        "CI/CD Optimization: Revamped Jenkins and GitLab CI pipelines, reducing software release deployment cycles by 70% (accelerating releases from weekly to daily deployments).",
+        "Observability Setup: Deployed centralized logging and APM monitoring via ELK Stack and New Relic, improving system diagnostics speed by 45%."
+      ]
+    },
+    {
+      "company": "PT. Harmonix Teknologi Peentar",
+      "position": "System Administrator",
+      "startDate": "2018-10-01",
+      "endDate": "2019-10-01",
+      "summary": "Administered corporate networks, Linux/Windows servers, user credentials, and security policies. Established initial systems monitoring and detailed technical documentation.",
+      "highlights": [
+        "Infrastructure Availability: Maintained 99.95% service uptime across Linux and Windows Server environments, managing firewalls, backups, and user access.",
+        "Proactive System Monitoring: Built and configured early-stage server monitoring utilizing Grafana and ELK Stack, reducing hardware incident resolution times by 30%.",
+        "Technical Documentation: Authored and updated 50+ technical SOPs and infrastructure topologies, reducing new SRE/IT member onboarding times by 40%."
+      ]
+    },
+    {
+      "company": "buyback.ai",
+      "position": "Freelance DevOps Engineer",
+      "startDate": "2021-08-01",
+      "endDate": "2022-08-01",
+      "summary": "Designed, migrated, and deployed scalable database nodes and high-availability application environments on modern cloud infrastructures.",
+      "highlights": [
+        "Cloud to Cloud Migration: Spearheaded the seamless migration of application nodes and MySQL databases from DigitalOcean to AWS, boosting overall database query speeds by 35%.",
+        "AWS Elastic Beanstalk: Deployed and scaled high-availability application workloads on AWS Elastic Beanstalk, improving overall service availability by 20% under peak user traffic."
+      ]
+    }
+  ],
   "skills": [
     {
       "name": "CI/CD",
@@ -512,41 +588,28 @@
     {
       "name": "Databases",
       "keywords": ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "Kafka", "MySQL", "ClickHouse"]
-    }
-  ],
-  "work": [
-    {
-      "company": "PT. Lion Parcel",
-      "position": "Site Reliability Engineer",
-      "startDate": "2025-02-01",
-      "endDate": "Present",
-      "summary": "Managed the reliability, high availability, and cost efficiency of multi-cloud infrastructure (AWS & GCP) hosting core logistics microservices. Led large-scale cloud migrations, architected automated runner fleets, and standardized continuous delivery platforms to guarantee platform uptime and optimize developer productivity.",
-      "highlights": [
-        "Zero-Downtime Cloud Migration: Led and successfully executed the end-to-end migration of 100% of core production microservices and databases from GCP to AWS with 0% downtime (zero service interruption).",
-        "GitHub Actions Scale Sets (ARC): Architected and deployed GitHub Actions Runner Controller (ARC) on AWS EKS to manage auto-scaling self-hosted runner fleets, reducing pipeline build wait times by 40% and optimizing runner cost efficiency by 30%.",
-        "Jenkins-as-Code (JCasC): Standardized CI/CD pipelines utilizing JCasC configurations, improving pipeline deployment speed by 25% and integrating automated Lighthouse performance quality gates directly into the runner runtime.",
-        "Distributed Observability: Deployed Grafana Tempo distributed tracing stack with AWS S3 storage backend across all environments, reducing Mean Time to Resolution (MTTR) by 50% for production incidents."
-      ]
     },
     {
-      "company": "PT. Komunitas Anak Bangsa",
-      "position": "Lead SRE/DevOps Engineer",
-      "startDate": "2022-11-01",
-      "endDate": "2025-02-28",
-      "summary": "Directed GitOps adoption, mobile application deployment workflows, and secure multi-cloud architectures. Managed relational/NoSQL databases and messaging brokers while driving platform observability and technical strategy across the SRE team.",
-      "highlights": [
-        "ArgoCD GitOps Adoption: Led the adoption of GitOps practices using ArgoCD, improving configuration synchronization speed by 35% and eliminating deployment drift across dev, staging, and production environments.",
-        "Mobile CI/CD with Fastlane: Built automated CI/CD pipelines for Android/iOS apps utilizing Fastlane, cutting mobile release cycle times by 50% and integrating automated QA testing.",
-        "Secure Alibaba Cloud VPC: Designed a secure VPC and corporate network architecture on Alibaba Cloud with Pritunl VPN integrations, securing internal platform communication for 50+ active engineers.",
-        "Platform Observability Stack: Revamped cluster-wide monitoring using Prometheus, Grafana, and New Relic, increasing proactive incident detection rates by 40%."
-      ]
+      "name": "API Management",
+      "keywords": ["Kong API Gateway"]
     }
   ],
   "education": [
     {
       "institution": "Indraprasta PGRI University",
-      "startDate": "2010-01",
-      "endDate": "2015-01"
+      "area": "Bachelor of Informatics, FMIPA",
+      "startDate": "2010",
+      "endDate": "2015"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Indonesian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Basic"
     }
   ]
 };
@@ -666,6 +729,7 @@
             // Education
             const previewEduInst = document.getElementById("preview-education-inst");
             const previewEduDate = document.getElementById("preview-education-date");
+            const previewEduArea = document.getElementById("preview-education-area");
             const education = data.education || [];
             if (education.length === 0) {
                 document.getElementById("section-education-preview").style.display = "none";
@@ -674,6 +738,16 @@
                 const edu = education[0];
                 previewEduInst.textContent = edu.institution || "University Placeholder";
                 previewEduDate.textContent = (edu.startDate || edu.endDate) ? `${edu.startDate || ""} — ${edu.endDate || ""}` : "";
+                
+                if (edu.area) {
+                    previewEduArea.textContent = edu.area;
+                    previewEduArea.style.display = "block";
+                } else if (edu.studyType) {
+                    previewEduArea.textContent = edu.studyType;
+                    previewEduArea.style.display = "block";
+                } else {
+                    previewEduArea.style.display = "none";
+                }
             }
         }
 
@@ -731,5 +805,6 @@
             reader.readAsText(file);
         }
     </script>
+
 </body>
 </html>

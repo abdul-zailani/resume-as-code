@@ -11,7 +11,7 @@
   },
   "work": [
     {
-      "company": "PT. Lion Parcel",
+      "company": "PT. Lion Express",
       "position": "Site Reliability Engineer",
       "startDate": "2025-02-01",
       "endDate": "Present",
@@ -69,7 +69,7 @@
       "summary": "Designed, migrated, and deployed scalable database nodes and high-availability application environments on modern cloud infrastructures.",
       "highlights": [
         "Cloud to Cloud Migration: Spearheaded the seamless migration of application nodes and MySQL databases from DigitalOcean to AWS, boosting overall database query speeds by 35%.",
-        "Kubernetes Integration: Deployed high-availability application workloads on Kubernetes clusters, improving overall service availability by 20% under peak user traffic."
+        "AWS Elastic Beanstalk: Deployed and scaled high-availability application workloads on AWS Elastic Beanstalk, improving overall service availability by 20% under peak user traffic."
       ]
     }
   ],

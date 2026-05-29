@@ -21,7 +21,7 @@ SKILLS -------------------------------------------------------------------------
 
 EMPLOYMENT ---------------------------------------------------------------------
 
-Site Reliability Engineer, PT. Lion Parcel (2025-02 — Present)
+Site Reliability Engineer, PT. Lion Express (2025-02 — Present)
 Managed the reliability, high availability, and cost efficiency of multi-cloud infrastructure (AWS & GCP) hosting core logistics microservices. Led large-scale cloud migrations, architected automated runner fleets, and standardized continuous delivery platforms to guarantee platform uptime and optimize developer productivity.
 - Zero-Downtime Cloud Migration: Led and successfully executed the end-to-end migration of 100% of core production microservices and databases from GCP to AWS with 0% downtime (zero service interruption).
 - GitHub Actions Scale Sets (ARC): Architected and deployed GitHub Actions Runner Controller (ARC) on AWS EKS to manage auto-scaling self-hosted runner fleets, reducing pipeline build wait times by 40% and optimizing runner cost efficiency by 30%.
@@ -51,7 +51,7 @@ Administered corporate networks, Linux/Windows servers, user credentials, and se
 Freelance DevOps Engineer, buyback.ai (2021-08 — 2022-08)
 Designed, migrated, and deployed scalable database nodes and high-availability application environments on modern cloud infrastructures.
 - Cloud to Cloud Migration: Spearheaded the seamless migration of application nodes and MySQL databases from DigitalOcean to AWS, boosting overall database query speeds by 35%.
-- Kubernetes Integration: Deployed high-availability application workloads on Kubernetes clusters, improving overall service availability by 20% under peak user traffic.
+- AWS Elastic Beanstalk: Deployed and scaled high-availability application workloads on AWS Elastic Beanstalk, improving overall service availability by 20% under peak user traffic.
 
 
 

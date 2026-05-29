@@ -39,12 +39,13 @@ CUSTOM_CSS = """
             }
             
             #container > header {
-              padding-top: 10px;
-              padding-bottom: 5px;
+              padding-top: 25px;
+              padding-bottom: 12px;
             }
             
             body.pdf #container > header {
-              padding: 0;
+              padding-top: 15px;
+              padding-bottom: 10px;
             }
             
             #main > #container > section {
@@ -228,7 +229,7 @@ CUSTOM_CSS = """
               }
               @page {
                 size: A4;
-                margin: 0.5cm 0.7cm;
+                margin: 0.8cm 0.8cm;
               }
               section {
                 page-break-inside: auto !important;
@@ -311,6 +312,14 @@ def main():
         f"<style>{CUSTOM_CSS}</style>",
         html_content,
         flags=re.DOTALL
+    )
+
+    # D. Dynamic Education Area Patch (Since Modern theme doesn't render JRS 'area' by default)
+    print("   - Patching Education Area (Bachelor of Informatics, FMIPA)...")
+    html_content = re.sub(
+        r"(<h3>\s*Indraprasta PGRI University\s*</h3>)",
+        r"\1\n<div style=\"font-style: italic; color: #555; margin-top: 2px;\">Bachelor of Informatics, FMIPA</div>",
+        html_content
     )
 
     with open(cv_html, "w", encoding="utf-8") as f:
