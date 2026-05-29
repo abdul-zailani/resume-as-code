@@ -39,7 +39,7 @@ Equipped with [AGENT.md](./AGENT.md) guidelines for AI coding assistants.
 ## 🛠️ Quick Start
 
 ### Option A: The No-Setup Playground (Highly Recommended)
-1. Open **`index.html`** directly in any web browser (no installation or terminal required!).
+1. Open **`index.html`** directly in any web browser (no installation or terminal required!), atau kunjungi **[Live Demo](https://abdul-zailani.github.io/resume-as-code/)**.
 2. Edit the raw JSON schema in the live IDE-style editor on the left pane. The built-in validator will check your JSON syntax in real-time.
 3. Watch the styled resume update instantly in the right-pane preview canvas.
 4. Click **Print to PDF** to download your premium print layout, or **Save JSON Code** to download your validated `resume.json` to commit to Git!
