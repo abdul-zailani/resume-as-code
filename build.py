@@ -364,6 +364,40 @@ def main():
         html_content
     )
 
+    # E. Contact Info Patch
+    print("   - Patching Contact Info to include LinkedIn, GitHub, and Website...")
+    contact_block = """<div id="contact">
+                        <div class="email"><a href="mailto:aazizzailani@gmail.com">aazizzailani@gmail.com</a></div>
+                        <div class="phone">0857-1616-9351</div>
+                        <div class="profiles" style="font-size: 0.9em; margin-top: 3px;">
+                            <a href="https://linkedin.com/in/aazizzailani" target="_blank">linkedin.com/in/aazizzailani</a><br>
+                            <a href="https://github.com/abdul-zailani" target="_blank">github.com/abdul-zailani</a><br>
+                            <a href="https://azizzailani.github.io" target="_blank">azizzailani.github.io</a>
+                        </div>
+                    </div>"""
+    html_content = re.sub(
+        r'<div id="contact">.*?</div>\s*</header>',
+        contact_block + "\n                </header>",
+        html_content,
+        flags=re.DOTALL
+    )
+
+    # F. Work Preferences Patch
+    print("   - Patching Work Preferences Section...")
+    work_prefs = """<section id="work-preferences">
+                    <header>
+                        <h2>Work Preferences</h2>
+                    </header>
+                    <div style="margin-top: 5px;">
+                        <span class="label-keyword"><span class="kw">Worksites:</span> Remote, Hybrid, Onsite</span>
+                        <span class="label-keyword"><span class="kw">Employment Type:</span> Full-time</span>
+                        <span class="label-keyword"><span class="kw">Location:</span> Jakarta, Indonesia</span>
+                    </div>
+                </section>
+                <hr>
+                <section id="education">"""
+    html_content = html_content.replace('<section id="education">', work_prefs)
+
     with open(cv_html, "w", encoding="utf-8") as f:
         f.write(html_content)
     print("✅ Styling patches successfully applied to cv.html.")
