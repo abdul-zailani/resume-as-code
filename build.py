@@ -14,9 +14,9 @@ CUSTOM_CSS = """
             }
             
             body {
-              font-size: 12.5px;
+              font-size: 11px;
               color: #333;
-              line-height: 1.35;
+              line-height: 1.25;
               background-color: #F0F0F0;
               margin: 0;
               padding: 0;
@@ -30,7 +30,7 @@ CUSTOM_CSS = """
             #main {
               background-color: #FFF;
               margin: 0;
-              padding: 15px;
+              padding: 10px;
               border: none;
             }
             
@@ -39,13 +39,13 @@ CUSTOM_CSS = """
             }
             
             #container > header {
-              padding-top: 25px;
-              padding-bottom: 12px;
+              padding-top: 10px;
+              padding-bottom: 6px;
             }
             
             body.pdf #container > header {
-              padding-top: 15px;
-              padding-bottom: 10px;
+              padding-top: 8px;
+              padding-bottom: 4px;
             }
             
             #main > #container > section {
@@ -55,7 +55,7 @@ CUSTOM_CSS = """
             }
             
             section > div {
-              margin-bottom: 8px;
+              margin-bottom: 4px;
               page-break-inside: avoid;
             }
             
@@ -65,8 +65,8 @@ CUSTOM_CSS = """
             }
             
             hr {
-              margin-top: 6px;
-              margin-bottom: 6px;
+              margin-top: 4px;
+              margin-bottom: 4px;
               border: 0;
               border-top: 1px solid #EEE;
             }
@@ -77,26 +77,26 @@ CUSTOM_CSS = """
             
             h1 {
               margin: 0;
-              font-size: 26px;
+              font-size: 22px;
               color: #1a4367;
               display: inline-block;
             }
             
             h2 {
-              font-size: 14px;
+              font-size: 12px;
               color: #4376a2;
               text-transform: uppercase;
               font-weight: bold;
-              padding-top: 3px;
-              margin-top: 2px;
-              margin-bottom: 6px;
+              padding-top: 2px;
+              margin-top: 1px;
+              margin-bottom: 4px;
               border-bottom: 2px solid #4376a2;
-              padding-bottom: 2px;
+              padding-bottom: 1px;
             }
             
             h3 {
               margin-bottom: 1px;
-              font-size: 13px;
+              font-size: 11.5px;
               font-weight: bold;
             }
             
@@ -118,7 +118,7 @@ CUSTOM_CSS = """
             #summary {
               font-size: 100%;
               margin-left: 0;
-              padding: 2px 0;
+              padding: 1px 0;
             }
             
             #summary > p > strong {
@@ -142,12 +142,12 @@ CUSTOM_CSS = """
               display: inline-block;
               background-color: #e8f4ff !important;
               color: #1a4367 !important;
-              font-size: 0.85em;
-              padding: 2px 6px;
+              font-size: 0.8em;
+              padding: 1px 4px;
               border: 1px solid #bce0fd;
               border-radius: 4px;
-              margin-top: 2px;
-              margin-right: 2px;
+              margin-top: 1px;
+              margin-right: 1px;
               font-weight: 600;
               text-align: center;
               -webkit-print-color-adjust: exact !important;
@@ -162,7 +162,7 @@ CUSTOM_CSS = """
             }
             
             .notes {
-              font-size: 9px;
+              font-size: 8px;
               display: block;
               font-weight: normal;
               text-transform: uppercase;
@@ -173,7 +173,7 @@ CUSTOM_CSS = """
             }
             .card-nested {
                 min-height: 0;
-                margin-bottom: 4px;
+                margin-bottom: 2px;
                 border-width: 0;
             }
             .card {
@@ -197,9 +197,9 @@ CUSTOM_CSS = """
             }
             .skill-info > strong {
               font-weight: 700;
-              font-size: 13px;
+              font-size: 11.5px;
               color: #1a4367;
-              line-height: 18px;
+              line-height: 14px;
             }
             
             .list-unstyled {
@@ -222,43 +222,43 @@ CUSTOM_CSS = """
             
             @media (max-width: 768px) {
               #container > header {
-                padding-top: 15px;
-                padding-bottom: 8px;
+                padding-top: 10px;
+                padding-bottom: 4px;
               }
               h1 {
-                font-size: 22px;
+                font-size: 18px;
                 display: block;
               }
               #contact {
                 float: none;
                 text-align: left;
-                margin-top: 4px;
+                margin-top: 2px;
               }
               .skill-info > strong {
                 display: block;
-                margin-bottom: 4px;
+                margin-bottom: 2px;
               }
             }
             
             @media (max-width: 480px) {
               h1 {
-                font-size: 18px;
+                font-size: 16px;
               }
               h2 {
-                font-size: 12px;
+                font-size: 11px;
               }
               h3 {
-                font-size: 11px;
+                font-size: 10.5px;
               }
               body {
-                font-size: 11px;
+                font-size: 10px;
               }
               #main {
-                padding: 10px;
+                padding: 8px;
               }
               .label-keyword {
-                font-size: 0.8em;
-                padding: 1px 4px;
+                font-size: 0.75em;
+                padding: 1px 3px;
               }
             }
             
@@ -271,7 +271,7 @@ CUSTOM_CSS = """
               }
               @page {
                 size: A4;
-                margin: 0.8cm 0.8cm;
+                margin: 0.5cm 0.6cm;
               }
               section {
                 page-break-inside: auto !important;
