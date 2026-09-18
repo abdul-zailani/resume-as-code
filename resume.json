@@ -71,36 +71,97 @@
         "Cloud to Cloud Migration: Spearheaded the seamless migration of application nodes and MySQL databases from DigitalOcean to AWS, boosting overall database query speeds by 35%.",
         "AWS Elastic Beanstalk: Deployed and scaled high-availability application workloads on AWS Elastic Beanstalk, improving overall service availability by 20% under peak user traffic."
       ]
+    },
+    {
+      "company": "Self-Employed / Independent",
+      "position": "E-Commerce Business Owner & Freelance Digital Marketer",
+      "startDate": "2014-01-01",
+      "endDate": "2018-09-30",
+      "summary": "Career transition focusing on e-commerce entrepreneurship and freelance digital marketing consulting.",
+      "highlights": [
+        "E-Commerce Operations: Built, scaled, and managed end-to-end online store operations, inventory, and multichannel sales.",
+        "Freelance Digital Marketing: Provided digital marketing, paid advertising, and conversion rate optimization services for small business clients."
+      ]
+    },
+    {
+      "company": "PT. Raja Pindah",
+      "position": "Digital Marketing Specialist",
+      "startDate": "2012-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Managed digital marketing initiatives, SEO optimization, and online customer acquisition campaigns for moving and relocation services.",
+      "highlights": [
+        "Digital Campaign & SEM: Executed online marketing strategies and search engine marketing (SEM) campaigns to drive qualified relocation leads.",
+        "SEO & Web Presence: Optimized website content and landing pages on rajapindah.com to boost organic search rankings."
+      ]
     }
   ],
   "skills": [
     {
       "name": "CI/CD",
-      "keywords": ["Jenkins", "JCasC", "ArgoCD", "Fastlane", "GitLab", "GitHub Actions (ARC)"]
+      "keywords": [
+        "Jenkins",
+        "JCasC",
+        "ArgoCD",
+        "Fastlane",
+        "GitLab",
+        "GitHub Actions (ARC)"
+      ]
     },
     {
       "name": "Cloud",
-      "keywords": ["AWS", "Alibaba Cloud", "Digital Ocean", "GCP"]
+      "keywords": [
+        "AWS",
+        "Alibaba Cloud",
+        "Digital Ocean",
+        "GCP"
+      ]
     },
     {
       "name": "Containerization",
-      "keywords": ["Docker", "Kubernetes", "Docker Swarm", "Helm"]
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Docker Swarm",
+        "Helm"
+      ]
     },
     {
       "name": "Monitoring",
-      "keywords": ["Prometheus", "Grafana", "New Relic", "ELK Stack", "Loki", "Tempo"]
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "New Relic",
+        "ELK Stack",
+        "Loki",
+        "Tempo"
+      ]
     },
     {
       "name": "IaC & Automation",
-      "keywords": ["Terraform", "Ansible", "Packer", "Rundeck"]
+      "keywords": [
+        "Terraform",
+        "Ansible",
+        "Packer",
+        "Rundeck"
+      ]
     },
     {
       "name": "Databases",
-      "keywords": ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "Kafka", "MySQL", "ClickHouse"]
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch",
+        "Kafka",
+        "MySQL",
+        "ClickHouse"
+      ]
     },
     {
       "name": "API Management",
-      "keywords": ["Kong API Gateway"]
+      "keywords": [
+        "Kong API Gateway"
+      ]
     }
   ],
   "education": [
